@@ -69,10 +69,10 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">Главная</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('login') }}">Войти</a>
+                        <a href="{{ route('register') }}">Регистрация</a>
                     @endauth
                 </div>
             @endif
@@ -83,10 +83,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="http://diplom.dev/">Home</a>
-                    <a href="http://diplom.dev/news">News</a>
-                    <a href="http://diplom.dev/composition">Composition</a>
-                    <a href="http://diplom.dev/contacts">Contacts</a>
+                    <a href="http://diplom.dev/">Главная</a>
+                    <a href="http://diplom.dev/news">Новости</a>
+                    <a href="http://diplom.dev/composition">Состав кафедры</a>
+                    <a href="http://diplom.dev/contacts">Контакты</a>
                 </div>
             </div>
         </div>
